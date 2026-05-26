@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>오설록-OSULLOC-partnership</title>
+</head>
+<body>
+  <div class="goto-top">
+    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+  </div>
+  <div class="goto-bottom">
+    <a href="#footer"><i class="fa-solid fa-angle-down"></i></a>
+  </div>
+  
+  <header data-include="header.html">
+  </header>
+
+  <main id="sub-main">
+    <div class="partner"></div>
+  </main>
+  
+  <section id="sub">
+    <div class="section-inner2">
+      <div class="section-inner">
+        <div class="form-wrap">
+          <div class="fw-left">
+            <h1>가맹 문의</h1>
+            <p>
+              오설록의 철학과 가치를<br>
+              함께 나누며 성장할<br>
+              파트너를 기다립니다.
+            </p>
+          </div>
+          <div class="fw-right">
+            <div class="input-box">
+              <input type="text" id="name" required>
+              <label for="name">이름</label>
+            </div>
+            <div class="input-box">
+              <input type="tel" id="tel" required>
+              <label for="tel">연락처</label>
+            </div>
+            <div class="input-box">
+              <input type="email" id="email" required>
+              <label for="email">이메일</label>
+            </div>
+            <div class="input-box dropdown-box">
+              <button type="button" class="dropdown-btn">
+                <span class="selected-text"></span>
+              </button>
+
+              <ul class="dropdown-list">
+                <li data-value="서울">서울</li>
+                <li data-value="경기도">경기도</li>
+                <li data-value="인천">인천</li>
+                <li data-value="강원도">강원도</li>
+                <li data-value="충청북도">충청북도</li>
+                <li data-value="충청남도">충청남도</li>
+                <li data-value="대전">대전</li>
+                <li data-value="세종">세종</li>
+                <li data-value="전라북도">전라북도</li>
+                <li data-value="전라남도">전라남도</li>
+                <li data-value="광주">광주</li>
+                <li data-value="경상북도">경상북도</li>
+                <li data-value="경상남도">경상남도</li>
+                <li data-value="대구">대구</li>
+                <li data-value="부산">부산</li>
+                <li data-value="울산">울산</li>
+                <li data-value="제주도">제주도</li>
+              </ul>
+
+              <input type="hidden" name="region" id="region" required>
+              <label>지역</label>
+            </div>
+            <div class="input-btn">
+              <h2>문의하기</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer data-include="footer.html" id="footer">
+  </footer>
+	<script src="js/includeHTML.js"></script>
+	<script src="js/includeRouter.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/sub.js"></script>
+	<script>
+    includeHTML( function () {
+      initAll();
+      includeRouter( function () {
+        initAll();
+      });
+    });
+  </script>
+</body>
+</html>
