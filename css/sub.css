@@ -623,26 +623,34 @@ url(../image/tea6.png) center/cover no-repeat, #fff;
 /* menu4 */
 #sub .section-inner2{
   width: 100%;
+  position: relative;
+}
+#sub .section-inner2::before{
+  content: "";
+  position: absolute;
+  inset: 0;
   background: url(../image/parter_bg.png) no-repeat center/cover;
+  opacity: 0.4;
+  z-index: 0;
 }
 #sub .section-inner2 .section-inner{
   width: 100%;
-  padding: 50px 50px 200px;
+  padding: 50px 50px 150px;
 }
 .form-wrap{
   display: flex;
   justify-content: space-between;
   gap: 30px;
   margin-top: 50px;
-  padding: 0 100px;
+  padding: 0 100px 0 50px;
 }
 .fw-left{  
   width: 100%;
-  padding: 30px 30px 100px 100px;
+  padding: 30px 100px 100px 0px;
   text-align: center;
 }
 .fw-left h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #2E4A35;
   line-height: 1.2;
@@ -656,7 +664,7 @@ url(../image/tea6.png) center/cover no-repeat, #fff;
   margin-bottom: 34px;
 }
 .fw-left p{
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.8;
   color: #2F352F;
   font-weight: 400;
