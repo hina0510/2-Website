@@ -29,27 +29,16 @@ nav{
   height: 60px;
 	font-weight: 500;
   box-sizing: border-box;
-  line-height: 60px; 
-  color:#fff;
-  transition: 0.5s;
-}
-.gnb>.main:hover>a{
-  background-color: #607c64;
-}
-.logo{
+  line-height: 60px;
   transition: 0.5s;
 }
 .logo a{
   display: block;
-  width: 130px;
-  height: 130px;
   margin: 20px;
-  background: url(../image/logo_w.png) center/cover;
-  transition: 0.5s;
 }
-.logo a:hover{
-  border-radius: 50%;
-  background-image: url(../image/logo.png);
+.logo a img{
+  display: block;
+  width: 130px;
 }
 .sub {
 	display: none;
@@ -58,7 +47,7 @@ nav{
   left: 50%;
   transform: translateX(-50%);
   width: 150px;
-	background: #fff;
+	background: #ffffff38;
 }
 .sub li{
   position: relative;

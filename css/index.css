@@ -1,69 +1,27 @@
 /* Main */
-#index-main{
+#index-main {
   width: 100%;
-  margin-top: 170px;
+  /* margin-top: 170px; */
   background-color: #fff;
 }
-.gallery{
-  max-width: 1400px;
-  display: flex;
-  margin: auto;
-}
-.gallery li{
-  position: relative;
-  flex: 1;
-  height: 510px;
-  transition: 0.5s;
+.main-slider {
+  width: 100%;
+  max-height: 100vh;
   overflow: hidden;
 }
-.gallery li img{
-  width: 1220px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
+.main-slider-track {
+  display: flex;
 }
-.gallery li h2{
-  position: absolute;
-  top: 21%;
-  left: 10%;
-  color: #fff;
-  font-size: 40px;
+.main-slide {
+  width: 100%;
+  flex-shrink: 0;
 }
-.gallery li h2 span{
-  color: #E38136;
+.main-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
-.gallery li h3{
-  position: absolute;
-  top: 33%;
-  left: 10%;
-  color: #B29069;
-  font-size: 24px;
-}
-.gallery li h4{
-  position: absolute;
-  top: 75%;
-  left: 10%;
-  color: #DCA94B;
-  font-size: 33px;
-}
-.gallery li:first-child{
-  flex: 20;
-}
-.gallery:hover li{
-  flex: 1;
-}
-.gallery li:hover{
-  flex: 20;
-}
-.gallery li:hover .content{
-  bottom: 0;
-  transition-delay: 0.5s;
-}
-.gallery li:hover:before{
-  top: 0;
-  transition-delay: 1s;
-}
+
 section{
   width: 100%;
 }

@@ -4,7 +4,6 @@ body{
   color: #333;
 }
 
-
 .goto-top{
   position: fixed;
   right: 20px;
@@ -39,34 +38,37 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  /* height: 80px; */
   z-index: 10;
-  background-color: #2D4A3E;
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+header.header-white {
+  background-color: #fff;
 }
 
 #sub-main>.brand{
   width: 100%;
   height: 300px;
-  margin-top: 170px;
-  background:linear-gradient(#484848aa, #484848aa), url(../image/main_brand.jpg) no-repeat center/cover;
+  /* margin-top: 170px; */
+  background:linear-gradient(#DCE7E1ad, #216e44aa), url(../image/main_brand.jpg) no-repeat center/cover;
 }
 #sub-main>.menu{
   width: 100%;
   height: 300px;
-  margin-top: 170px;
-  background:linear-gradient(#484848aa, #484848aa), url(../image/main_tea.png) no-repeat center/cover;
+  /* margin-top: 170px; */
+  background:linear-gradient(#DCE7E1ad, #484848aa), url(../image/main_tea.png) no-repeat center/cover;
 }
 #sub-main>.news{
   width: 100%;
   height: 300px;
-  margin-top: 170px;
-  background:linear-gradient(#484848aa, #484848aa), url(../image/main_new.png) no-repeat center/cover;
+  /* margin-top: 170px; */
+  background:linear-gradient(#DCE7E1ad, #216e44aa), url(../image/main_new.png) no-repeat center/cover;
 }
 #sub-main>.partner{
   width: 100%;
   height: 300px;
-  margin-top: 170px;
-  background:linear-gradient(#484848aa, #484848aa), url(../image/main_partner.png) no-repeat center/cover;
+  /* margin-top: 170px; */
+  background:linear-gradient(#DCE7E1ad, #216e44aa), url(../image/main_partner.png) no-repeat center/cover;
 }
 #sub{
   background-color: #DCE7E1;
