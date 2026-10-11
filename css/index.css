@@ -132,7 +132,7 @@ section{
   font-size: 28px;
   color: #FFF3D2;
 }
-#s2 .section-inner .content2{font-family: 'NanumSquareBold';
+#s2 .section-inner .content2{
   position: absolute;
   bottom: 10%;
   left: 3%;

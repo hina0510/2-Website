@@ -18,6 +18,13 @@
     font-weight: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'NanumBarunPen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
 /* Icon font */
 
 
